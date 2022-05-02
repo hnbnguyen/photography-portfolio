@@ -11,10 +11,10 @@ const NotFound = () => {
     }, []);
 
     return ( 
-        <div className="not-found">
+        <div className='not-found'>
             <h2>this is awkward but erm...</h2>
             <h3>you've wandered into a page that doesn't exist</h3>
-            <p>we will redirect you back to our <Link href="/"><a>homepage</a></Link> in 5 sec</p>
+            <p>we will redirect you back to our <Link href='/'><a>homepage</a></Link> in 5 sec</p>
         </div>
      );
 }
