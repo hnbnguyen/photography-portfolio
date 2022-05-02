@@ -1,4 +1,4 @@
-import styles from '../../styles/Portfolio.module.css'
+import styles from '../../styles/Portfolio.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
 
