@@ -1,8 +1,8 @@
 const Footer = () => {
     return ( 
-        <div>
-            All pictures belongs to nakedguacamole
-        </div>
+        <footer>
+            All pictures belong to nakedguacamole
+        </footer>
      );
 }
  

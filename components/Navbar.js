@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { useEffect } from 'react'
+import { useRouter } from 'next/router'
 
 const Navbar = () => {
     return ( 
@@ -6,9 +8,9 @@ const Navbar = () => {
             <div className="logo">
                 <h1>nakedguacamole</h1>
             </div>
-            <Link href="/"><a>Home</a></Link>
-            <Link href="/about"><a>About</a></Link>
-            <Link href="/albums"><a>Portfolio</a></Link>
+            <Link href="/"><a>home</a></Link>
+            <Link href="/about"><a>about</a></Link>
+            <Link href="/portfolio"><a>portfolio</a></Link>
         </nav>
      );
 }
