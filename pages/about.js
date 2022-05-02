@@ -11,7 +11,7 @@ const About = () => {
             <div className={styles.content}>
                 <h2>about</h2>
                 <p>
-                    Hi! I&apos;m Mimi and I take photos on film. <br></br>
+                    Hi! I am Mimi and I take photos on film. <br></br>
                     Currently studying Computing and learning Web Development.<br></br>
                     - <br></br>
                     2000-2016 Hanoi, Vietnam<br></br>

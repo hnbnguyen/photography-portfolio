@@ -13,7 +13,7 @@ const NotFound = () => {
     return ( 
         <div className='not-found'>
             <h2>this is awkward but erm...</h2>
-            <h3>you&apos;ve wandered into a page that doesn&apos;t exist</h3>
+            <h3>you have wandered into a page that does not exist</h3>
             <p>we will redirect you back to our <Link href='/'><a>homepage</a></Link> in 5 sec</p>
         </div>
      );
